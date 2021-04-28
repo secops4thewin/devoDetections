@@ -1,0 +1,282 @@
+{
+    "name": "Devo Detection Rules",
+    "versions": {
+        "layer": "4.1",
+        "navigator": "4.1"
+    },
+    "sorting": 3,
+    "description": "A list of the detections mapped to Mitre Att&ck",
+    "domain": "enterprise-attack",
+    "techniques": [
+        {
+            "techniqueID": "T1003.008",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1546.008",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1098",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1546.010",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1548.002",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1218.003",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1070.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1136",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1574.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1030",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1498.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1078.002",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1568.002",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1583.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1041",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1048.003",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1568.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1070.004",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1083",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1490",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1090.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1136.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1078.003",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1090.003",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1003.003",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1046",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1571",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1550.002",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1110.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1110.003",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1059.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1572",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1219",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1021.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1053.005",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1003.002",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1569.002",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1082",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1021.005",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1078",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1595.002",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1505.003",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1047",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1543.003",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        },
+        {
+            "techniqueID": "T1484.001",
+            "score": 2,
+            "color": "#3182bd",
+            "enabled": "true"
+        }
+    ]
+}
