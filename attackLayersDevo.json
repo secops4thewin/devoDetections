@@ -1,408 +1,308 @@
 {
-    "name": "Devo Detection Rules",
-    "versions": {
-        "layer": "4.1",
-        "navigator": "4.1"
+  "name": "Devo Detections",
+  "description": "Provides a list of Mitre Attack Techniques",
+  "versions": {
+    "layer": "4.3",
+    "navigator": "4.3"
+  },
+  "domain": "enterprise-attack",
+  "techniques": [
+    {
+      "techniqueID": "T1030",
+      "comment": "Built by Devo script",
+      "score": 8,
+      "color": "#3182bd"
     },
-    "sorting": 3,
-    "description": "A list of the detections mapped to Mitre Att&ck",
-    "domain": "enterprise-attack",
-    "techniques": [
-        {
-            "techniqueID": "T1003.008",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1548",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1546.008",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1098",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1583",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1595",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1546.010",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1110",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1548.002",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1218.003",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1070.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1059",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1136",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1543",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1574.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1030",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1498.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1078.002",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1568.002",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1583.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1568",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1546",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1048",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1041",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1048.003",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1568.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1070.004",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1083",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1574",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1070",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1490",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1090.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1136.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1078.003",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1090.003",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1003.003",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1498",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1046",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1571",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1003",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1550.002",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1110.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1110.003",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1059.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1572",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1090",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1219",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1021.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1021",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1053.005",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1053",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1003.002",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1505",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1569.002",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1218",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1082",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1569",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1550",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1021.005",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1078",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1595.002",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1505.003",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1047",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1543.003",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1484",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        },
-        {
-            "techniqueID": "T1484.001",
-            "score": 1,
-            "color": "#3182bd",
-            "enabled": "true"
-        }
+    {
+      "techniqueID": "T1098",
+      "comment": "Built by Devo script",
+      "score": 13,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1548",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1015",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1050",
+      "comment": "Built by Devo script",
+      "score": 6,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1486",
+      "comment": "Built by Devo script",
+      "score": 8,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1211",
+      "comment": "Built by Devo script",
+      "score": 7,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1046",
+      "comment": "Built by Devo script",
+      "score": 6,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1086",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1088",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1484",
+      "comment": "Built by Devo script",
+      "score": 2,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1003",
+      "comment": "Built by Devo script",
+      "score": 3,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1078",
+      "comment": "Built by Devo script",
+      "score": 5,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1105",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1083",
+      "comment": "Built by Devo script",
+      "score": 7,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1485",
+      "comment": "Built by Devo script",
+      "score": 4,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1084",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1072",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1075",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1082",
+      "comment": "Built by Devo script",
+      "score": 3,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1498",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1190",
+      "comment": "Built by Devo script",
+      "score": 3,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1110.004",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1020",
+      "comment": "Built by Devo script",
+      "score": 3,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1110",
+      "comment": "Built by Devo script",
+      "score": 6,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1103",
+      "comment": "Built by Devo script",
+      "score": 2,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1306",
+      "comment": "Built by Devo script",
+      "score": 3,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1038",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1136",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1048",
+      "comment": "Built by Devo script",
+      "score": 2,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1070",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1564.006",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1566",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1204.002",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1210",
+      "comment": "Built by Devo script",
+      "score": 2,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1065",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1055",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1483",
+      "comment": "Built by Devo script",
+      "score": 3,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1011",
+      "comment": "Built by Devo script",
+      "score": 2,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1041",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1028",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1191",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1311",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1219",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1094",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1320",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    },
+    {
+      "techniqueID": "T1090",
+      "comment": "Built by Devo script",
+      "score": 1,
+      "color": "#3182bd"
+    }
+  ],
+  "sorting": 3,
+  "gradient": {
+    "colors": [
+      "#fff7b3",
+      "#ff6666"
+    ],
+    "minValue": [
+      "T1548",
+      1
+    ],
+    "maxValue": [
+      "T1098",
+      13
     ]
+  }
 }
